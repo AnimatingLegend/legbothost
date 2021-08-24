@@ -11,6 +11,7 @@ module.exports = {
         .setColor(`#3734eb`)
         .addField(`- Made github repository so bot can stay online 24/7 on heroku`)
         .addField(`- Fixed a Npm error with discord.js (TOOK ME 4 HOURS FHJIDFGDASJKHFGHASJKFDSADHFKAJDSF) thanks color for the help.`)
+        .addField(`- Added Util code to make my cmds faster (TOTALLY didnt skid the code.)`)
         .setTimestamp();
 
         await message.channel.send(embed)
