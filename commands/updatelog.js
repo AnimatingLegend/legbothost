@@ -18,6 +18,7 @@ module.exports = {
         .addField(`- Minor Fixes to meme.js (Got a better api so the memes can be more funnier.)`)
         .addField(`- Added Bird.js command (birb.) usage: lb-birb sends facts and images of birds.`)
         .addField(`- Minor bug fixes to Bird.js (Updated img api cause it wasnt showing any photos of the bird.)`)
+        .addField(`- Added Userinfo command (AUAUAUA) usage: lb-whois your account info.`)
         .setTimestamp();
 
         await message.channel.send(embed)
