@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js');
 const moment = require('moment');
 
 module.exports = {
-    name: "whois",
+    name: "userinfo",
     category: "about you",
     run: async (client, message, args) => {
        run: async(message, args) => {
