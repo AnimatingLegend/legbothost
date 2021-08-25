@@ -6,7 +6,7 @@ module.exports = {
     category: "thing",
     
     run: async (client, message, args) => {
-        const url = "https://some-random-api.ml/animal/birb"
+        const url = "https://some-random-api.ml/img/bird"
         const facts = "https://some-random-api.ml/facts/birb"
 
         let image, response;
