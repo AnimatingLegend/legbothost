@@ -19,6 +19,7 @@ module.exports = {
         .addField(`- Added Bird.js command (birb.) usage: lb-birb sends facts and images of birds.`)
         .addField(`- Minor bug fixes to Bird.js (Updated img api cause it wasnt showing any photos of the bird.)`)
         .addField(`- Added Userinfo command (AUAUAUA) usage: lb-whois your account info.`)
+        .addField(`- Minor fixes to Userinfo.js: fixed 'member was not defined error'`)
         .setTimestamp();
 
         await message.channel.send(embed)
