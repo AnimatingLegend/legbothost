@@ -7,19 +7,10 @@ module.exports = {
         let user = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
 
         const embed = new MessageEmbed()
-        .setTitle(`Update Log 8/24/21`)
+        .setTitle(`Update Log 8/25/21`)
         .setColor(`#3734eb`)
-        .addField(`- Made github repository so bot can stay online 24/7 on heroku`)
-        .addField(`- Fixed a Npm error with discord.js (thanks color for the help.)`)
-        .addField(`- Added Util code to make my cmds faster (TOTALLY didnt skid the code.)`)
-        .addField(`- Added Corona cmd `)
-        .addField(`- added help command. (more cleaner than cmds command) usage: lb-help tells you info about legbot and all the commands.`)
-        .addField(`- Removed Cmds command. (if that STILL makes sense.)`)
-        .addField(`- Minor Fixes to meme.js (Got a better api so the memes can be more funnier.)`)
-        .addField(`- Added Bird.js command (birb.) usage: lb-birb sends facts and images of birds.`)
-        .addField(`- Minor bug fixes to Bird.js (Updated img api cause it wasnt showing any photos of the bird.)`)
-        .addField(`- Added Userinfo command (AUAUAUA) usage: lb-whois your account info.`)
-        .addField(`- Minor fixes to Userinfo.js: fixed 'member was not defined error'`)
+        .addField(`- Minor fixes to: howgay.js - randomized ppls gay percentage`)
+        .addField(`- userinfo.js is not accessable to members due to a lot of bugs with the command.`)
         .setTimestamp();
 
         await message.channel.send(embed)
