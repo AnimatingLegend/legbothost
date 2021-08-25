@@ -5,23 +5,33 @@ module.exports = {
     name: "whois",
     category: "about you",
     run: async (client, message, args) => {
-        let user = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
-
-        let status;
-        switch (user.presence.status) {
-            case "online":
-                status = "<:online:729181184193462285> online";
-                break;
-            case "dnd":
-                status = "<:dnd:729181212530442311> dnd";
-                break;
-            case "idle":
-                status = "<:idle:729181121933475931> idle";
-                break;
-            case "offline":
-                status = "<:offline:729181162182017051> offline";
-                break;
-        }
+       run: async(message, args) => {
+            const member =  this.getMemberFromMention(message, args[0]) || 
+              message.guild.members.cache.get(args[0]) || 
+              message.member;
+            const userFlags = (await member.user.fetchFlags()).toArray();
+            const activities = [];
+            let customStatus;
+            for (const activity of member.presence.activities.values()) {
+              switch (activity.type) {
+                case 'PLAYING':
+                  activities.push(`Playing **${activity.name}**`);
+                  break;
+                case 'LISTENING':
+                  if (member.user.bot) activities.push(`Listening to **${activity.name}**`);
+                  else activities.push(`Listening to **${activity.details}** by **${activity.state}**`);
+                  break;
+                case 'WATCHING':
+                  activities.push(`Watching **${activity.name}**`);
+                  break;
+                case 'STREAMING':
+                  activities.push(`Streaming **${activity.name}**`);
+                  break;
+                case 'CUSTOM_STATUS':
+                  customStatus = activity.state;
+                  break;
+              }
+            }
 
     const embed = new MessageEmbed()
       .setTitle(`${member.displayName}'s Information`)
@@ -44,4 +54,5 @@ module.exports = {
     if (userFlags.length > 0) embed.addField('Badges', userFlags.map(flag => flags[flag]).join('\n'));
     message.channel.send(embed);
   }
+}
 };
