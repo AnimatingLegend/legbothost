@@ -11,6 +11,7 @@ module.exports = {
         .setColor(`#3734eb`)
         .addField(`- Minor fixes to: howgay.js - randomized ppls gay percentage`)
         .addField(`- userinfo.js is not accessable to members due to a lot of bugs with the command.`)
+        .addField(`- Added hangman cmd usage:lb-hangman`)
         .setTimestamp();
 
         await message.channel.send(embed)
