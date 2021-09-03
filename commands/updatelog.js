@@ -12,6 +12,7 @@ module.exports = {
         .addField(`- Added Weather command (weather is cool) Usage:lb-Weather <country/state>`)
         .addField(`- Added TicTacToe Command (im god at this game.) lb-tictactoe - game.`)
         .addField(`- minor updates to howgay.js (whitelisted some peeps lol)`)
+        .addField(`- more fixes to howgay.js - numbers were not showing up for some reason`)
         .setColor(`#3734eb`)
         .setTimestamp();
 
