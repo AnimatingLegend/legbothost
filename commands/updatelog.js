@@ -7,12 +7,9 @@ module.exports = {
         let user = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
 
         const embed = new MessageEmbed()
-        .setTitle(`Update Log 9/2/21 (mini update lawl)`)
-        .addField(`- Removed Hangman.js (because i can)`)
-        .addField(`- Added Weather command (weather is cool) Usage:lb-Weather <country/state>`)
-        .addField(`- Added TicTacToe Command (im god at this game.) lb-tictactoe - game.`)
-        .addField(`- minor updates to howgay.js (whitelisted some peeps lol)`)
-        .addField(`- more fixes to howgay.js - numbers were not showing up for some reason`)
+        .setTitle(`Update Log 9/3/21`)
+        .addField(`- Added 8ball.js Usage: lb-8Ball`)
+        .addField(`- Minor fixes to howgay.js (removed all whitelists people on command. (**including me**))`)
         .setColor(`#3734eb`)
         .setTimestamp();
 
