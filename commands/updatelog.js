@@ -9,7 +9,8 @@ module.exports = {
         const embed = new MessageEmbed()
         .setTitle(`Update Log 9/3/21`)
         .addField(`- Added 8ball.js Usage: lb-8Ball`)
-        .addField(`- Minor fixes to howgay.js (removed all whitelists people on command. (**including me**))`)
+        .addField(`- Minor fixes to howgay.js (removed all whitelists people on command. **including me**)`)
+        .addField(`- Minor fixes to 8ball.js - fixed my grammar issues`)
         .setColor(`#3734eb`)
         .setTimestamp();
 
