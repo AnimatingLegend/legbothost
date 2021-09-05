@@ -14,7 +14,8 @@ module.exports = {
         .addField(`- Squrriel.js in the works - Tribute to colors pet squrriel R.I.P `)
         .addField(`- Whitelisted myself and others in howgay.js`)
         .addField(`- Removed Squrriel.js from github repository to fix bugs **command will be in use soon.**`)
-        .addField(`- Updated PFP, and name of Legbot.`)
+        .addField(`- Updated LegBots PFP, and name.`)
+        .addField(`- Updated LegBots custom status. - "TEST TEST TEST"`)
         .setColor(`#3734eb`)
         .setTimestamp();
 
