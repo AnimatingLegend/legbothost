@@ -17,6 +17,7 @@ module.exports = {
         .addField(`- Updated LegBots PFP, and name.`)
         .addField(`- Updated LegBots custom status. - "Holy Shit im a bot."`)
         .addField(`- Minor fixes to Squrriel.js - Had to reinstall NPM so command could work properly (**COMMAND WILL RETURN IN A COUPLE OF DAYS BECAUSE IM STILL DOING MORE TESTING ON IT.**)`)
+        .addField(`- More updates to legbot - Made an "About me", and added another custom status.`)
         .setColor(`#3734eb`)
         .setTimestamp();
 
