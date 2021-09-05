@@ -10,6 +10,7 @@ module.exports = {
     
     run: async (client, message, args) => {
         const url = "https://some-random-api.ml/img/squrriel";
+        const facts = "https://some-random-api.ml/facts/squrriel"
 
         let image, response;
         let fact, responses;
@@ -17,12 +18,15 @@ module.exports = {
             response = await axios.get(url);
             image = response.data;
 
+            responses = await axios.get(facts)
+            fact = responses.data
+
         } catch (e) {
             return message.channel.send(`An error occured, please try again!`)
         }
 
         const embed = new MessageEmbed()
-            .setTitle(`Squrriels :chipmunk: (R.I.P)`)
+            .setTitle(`Squrriel images, and facts (tribute to colors squrriel.)`)
             .setColor(`#f3f3f3`)
             .setDescription(fact.fact)
             .setImage(image.link)
