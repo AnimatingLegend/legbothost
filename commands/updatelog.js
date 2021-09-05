@@ -12,6 +12,8 @@ module.exports = {
         .addField(`- More fixes to tictactoe.js - Fixed constructing error, grammar issues (**code unfinished.**)`)
         .addField(`- Removed some more 8ball prompts cause they were still making no sense.`)
         .addField(`- Squrriel.js in the works - Tribute to colors pet squrriel R.I.P `)
+        .addField(`- Whitelisted myself and others in howgay.js`)
+        .addField(`- Added squrriel.js (RIP colors Pet squrriel :PrayGE:) usage: lb-Squrriel - colors squrriel is in a better place now. **rushed code, so there might be some bugs.**`)
         .setColor(`#3734eb`)
         .setTimestamp();
 
