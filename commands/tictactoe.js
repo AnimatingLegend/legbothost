@@ -11,7 +11,6 @@ module.exports = {
         new tictactoe({
             player_two: member,
             message: message
-
         })
     }
 }
