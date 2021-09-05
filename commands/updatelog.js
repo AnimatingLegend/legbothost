@@ -7,11 +7,11 @@ module.exports = {
         let user = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
 
         const embed = new MessageEmbed()
-        .setTitle(`Update Log 9/4/21`)
-        .addField(`- Minor fixes to 8ball.js - removed some 8ball answers cause they didnt rlly make sense.`)
-        .addField(`- Added 8ball, weather, and tictactoe to help.js (tictactoe.js is still a WIP, but i put it just in case i forget later.)`)
-        .addField(`- Finished/Added TicTacToe.js (im a god at this game.) Usage: lb-tictactoe - pretty self explainatory.`)
-        .addField(`- Minor fixes to tictactoe.js`)
+        .setTitle(`Update Log 9/5/21`)
+        .addField(`- Minor fixes to Userinfo.js - grammar issues (**code unfinished.**)`)
+        .addField(`- More fixes to tictactoe.js - Fixed constructing error, grammar issues (**code unfinished.**)`)
+        .addField(`- Removed some more 8ball prompts cause they were still making no sense.`)
+        .addField(`- Squrriel.js in the works - Tribute to colors pet squrriel R.I.P `)
         .setColor(`#3734eb`)
         .setTimestamp();
 
