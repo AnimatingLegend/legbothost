@@ -28,7 +28,7 @@ bot.on("error", console.error);
 //------------------------------------------------------------------------------
 bot.on('ready', () => {
     console.log('Bot is ready!');
-    bot.user.setActivity('TEST TEST TEST', { type: "WATCHING" }).catch(console.error)
+    bot.user.setActivity('Holy shit im a bot.', { type: "THINKING" }).catch(console.error)
 })
 //------------------------------------------------------------------------------
 
