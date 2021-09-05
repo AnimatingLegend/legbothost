@@ -21,7 +21,7 @@ module.exports = {
         },
         {
             name: 'all of these commands are visible to everyone and anyone can use them if they want.©',
-            value: '`| info: help, updates, corona, userinfo | fun: cat, dog, birb, howgay, joke, meme, |`'
+            value: '`| info: help, updates, corona, weather, userinfo | fun: cat, dog, birb, howgay, joke, meme, 8ball, tictactoe (WORK IN PROGRESS) |`'
         },)
 
         message.channel.send(help)
