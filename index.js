@@ -28,7 +28,7 @@ bot.on("error", console.error);
 //------------------------------------------------------------------------------
 bot.on('ready', () => {
     console.log('Bot is ready!');
-    bot.user.setActivity('Prefix is lb-', { type: "WATCHING" }).catch(console.error)
+    bot.user.setActivity('TEST TEST TEST', { type: "WATCHING" }).catch(console.error)
 })
 //------------------------------------------------------------------------------
 
