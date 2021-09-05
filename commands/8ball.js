@@ -6,7 +6,7 @@ module.exports = {
 
     async run (bot, message, args) {
         if(!args[0]) return message.reply('Please ask a full question.')
-        let replies = ["yes.", "Outlook seems good.", "yus", "of course.", "Yes – definitely.", "no.", "Better not tell you now.", "Outlook is not so good..", "nah", "never", "Cannot predict now.", "I dont know.", "I dont know *yet*...", "not a chance.", "I think so.", "only for today!", "not for today c:", "sadly yes..", "sadly no..", "maybe!", "ask again.. later.."];
+        let replies = ["yes.", "Outlook seems good.", "yus", "of course.", "Yes – definitely.", "no.", "Better not tell you now.", "Outlook is not so good..", "nah", "never","I dont know.", "I dont know *yet*...", "not a chance.", "I think so.", "sadly yes..", "sadly no..", "maybe!", "ERROR with qustion, please ask again.."];
         
         let result = Math.floor((Math.random() * replies.length));
         let question = args.slice().join(" ");
