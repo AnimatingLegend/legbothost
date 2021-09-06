@@ -9,7 +9,7 @@ module.exports = {
         const embed = new MessageEmbed()
         .setTitle(`Update Log 9/6/21`)
         .addField(`- Fixed Embed showing "undefined" in updatelog.js`)
-        .addField(`- updated legbots custom status again - "Prefix lb-"`)
+        .addField(`- updated legbots About Me again, (made it more clean)`)
         .setColor("RANDOM")
         .setTimestamp();
 
