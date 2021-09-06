@@ -8,8 +8,8 @@ module.exports = {
 
         const embed = new MessageEmbed()
         .setTitle(`Update Log 9/6/21`)
-        MessageEmbed.addField(`- Fixed Embed showing "undefined" in updatelog.js`)
-        MessageEmbed.addField(`- updated legbots custom status again - "Prefix lb-"`)
+        .addField(`- Fixed Embed showing "undefined" in updatelog.js`)
+        .addField(`- updated legbots custom status again - "Prefix lb-"`)
         .setColor("RANDOM")
         .setTimestamp();
 
