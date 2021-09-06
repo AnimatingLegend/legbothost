@@ -27,8 +27,8 @@ bot.on("error", console.error);
 
 //------------------------------------------------------------------------------
 bot.on('ready', () => {
-    console.log('LegBot is up, and running!');
-    bot.user.setActivity('Your Commands 24/7', { type: "WATCHING" }).catch(console.error)
+    console.log('LegBot is up and running!');
+    bot.user.setActivity('Your Commands 24/7 | Prefix: lb-', { type: "WATCHING" }).catch(console.error)
 })
 //------------------------------------------------------------------------------
 
