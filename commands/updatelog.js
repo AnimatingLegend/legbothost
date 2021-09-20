@@ -7,8 +7,8 @@ module.exports = {
         let user = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
 
         const embed = new MessageEmbed()
-        .setTitle(`Update Log 9/19/21 (LegBot Annoucment, and final updates)`)
-        .addField(`I have made the desicion LegBot will no longer be getting updated due to school, and my own personal projects. Bugs will probably not be fixed due to those decisions in mind, i will put out my LAST few updates to the bot before moving on with school and other projects.`)
+        .setTitle(`Update Log 9/19/21 (final updates)`)
+        .addField(`I have made the desicion LegBot will no longer be getting updated due to school, and my own personal projects. thank you guys for testing this bot out! ~ legend.#7654`)
         .addField(`- Updated About me for legbot`)
         .addField(`- Changed a couple of prompts in 8ball.js`)
         .addField(`- Removed whitelisted people from howgay.js (sorry color and duck lawl)`)
