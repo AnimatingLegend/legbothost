@@ -1,10 +1,10 @@
 # LegBot [Discord Bot]
 
 ## Warning !!!
-This Github Repository 'legbothost' has been archived due to bot inactivity issues, and major unfixable API bugs. This bot hasnt been worked on in over a year, and thats how it will remain to be. This bot will always be open sourced if you want to download it yourself and see how it ticks
+This Github Repository 'legbothost' has been archived due to bot inactivity issues, and major unfixable API bugs. This bot hasnt been worked on in over a year, and thats how it will remain to be. This bot will always be open sourced if you want to download it yourself and see how it ticks.
 
 ## About the bot
-Legbot is a bot i decided to make on my freetime, Aug 24 2021. This bot has a decent amount of commands (some unfinshed) that you can use. they are all listed below, or you can check them out in the commands folder.
+Legbot is a bot I decided to make on my freetime, Aug 24 2021. This bot has a decent amount of commands (some unfinshed) that you can use. They are all listed below, or you can check them out in the commands folder.
 
 ## Credits & Shit
 [Legend (thats me !!)](https://twitter.com/AnimatingLegend) - Main Programmer, Director of the bot
@@ -14,7 +14,7 @@ Legbot is a bot i decided to make on my freetime, Aug 24 2021. This bot has a de
 ## Commands
 Info:
 - Help.js [if you need help navigating the bot and how it works]
-- Updates.jx [Update-log]
+- Updates.jS [Update-log]
 - Corona.js [Tells you about certain covid cases going on in the world] [OUTDATED LOL]
 - Weather.js [this is self explanatory]
 
